@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { ShieldAlert, Check, X, ArrowRight, ShieldCheck } from 'lucide-react';
+import { ShieldAlert, Check, X, ArrowRight } from 'lucide-react';
 
 export default function TrustLayer() {
   const [matches, setMatches] = useState<any[]>([]);

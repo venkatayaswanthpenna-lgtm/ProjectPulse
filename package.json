@@ -1,7 +1,7 @@
 {
-  "name": "projectpulse-deploy",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "cd frontend && npm install && npm run build"
+  `"name`": `"projectpulse-deploy`",
+  `"version`": `"1.0.0`",
+  `"scripts`": {
+    `"build`": `"cd frontend && npm install && npm run build && cd .. && cp -r frontend/dist ./dist`"
   }
 }
